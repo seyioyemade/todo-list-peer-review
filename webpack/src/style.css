@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background-color: white;
+  width: 50%;
+  box-shadow: 1px 2px 7px 1px #a8a8a8;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+div,
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div {
+  padding: 20px;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  padding: 0 20px;
+}
+
+i,
+button {
+  color: #777;
+  cursor: pointer;
+}
+
+button {
+  border: 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+i:hover,
+button:hover {
+  color: #000;
+}
+
+.fa-ellipsis-v:hover {
+  cursor: move;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+.add-input {
+  border: none;
+  font-size: 18px;
+  width: 100%;
+}
+
+.add-input:focus,
+[contenteditable] {
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(141, 141, 141);
+}
+
+.btn-div {
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  border-width: 0 0 0;
+  justify-content: center;
+}
+
+li,
+.add-todo,
+.btn-div {
+  border-top: 1px solid #e0e0e0;
+}
+
+li > div {
+  padding: 0;
+}
+
+.checkbox {
+  margin-right: 15px;
+  width: 16px;
+  height: 16px;
+}
+
+form {
+  width: 85%;
+}
+
+.hide {
+  display: none;
+}
+
+.bg-color {
+  background-color: #e8e8a0;
+}
+
+span {
+  padding: 20px 0 20px 0;
+}
+
+.checkbox-effect {
+  text-decoration: line-through;
+  color: #777;
+}
